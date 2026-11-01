@@ -1,0 +1,28 @@
+# ══════════════════════════════════════════════════════════════
+#  💎 VPN DECODER PRO v8.3.1 — Requirements
+#  Python 3.10+ recommended
+# ══════════════════════════════════════════════════════════════
+
+# ── Telegram Bot Framework ──
+python-telegram-bot==21.6
+
+# ── Cryptography (AES, ChaCha20, ChaCha20-Poly1305) ──
+pycryptodome>=3.20.0
+
+# ── Timezone (Asia/Dhaka) ──
+pytz>=2024.1
+
+# ── Environment variables (.env loader) ──
+python-dotenv>=1.0.0
+
+# ── MessagePack (for .dark decoder) ──
+msgpack>=1.0.7
+
+# ── Argon2 (for .ehi decoder key derivation) ──
+argon2-cffi>=23.1.0
+
+# ── Flask keep-alive web server (port 8080) ──
+flask>=3.0.0
+
+# ── Async HTTP client (required by python-telegram-bot) ──
+httpx>=0.27.0
